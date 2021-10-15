@@ -1,0 +1,37 @@
+ul{
+    list-style-type: none;
+}
+
+li{
+    width: 150px;
+    border: 1px solid blue;
+}
+
+li:hover{
+    background: yellow;
+    color: white;
+}
+
+li:active{
+    background: blue;
+}
+
+li:first-child{
+    background: brown;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    border-radius: 50px;
+    display: none;
+}
+
+li:hover div{
+    display: block;
+}
+
+input:focus {
+    outline: olive;
+}
